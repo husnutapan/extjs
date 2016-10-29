@@ -6,9 +6,7 @@ Ext.application({
 		Ext.create('Ext.container.Viewport', {
 			layout : 'fit',
 			items : {
-				xtype : 'panel',
-				title : 'Cars',
-				html : 'List of users will go here'
+				xtype : 'carList',
 			}
 		});
 	}
