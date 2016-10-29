@@ -12,7 +12,7 @@ Ext.define('myApp.view.car.List', {
 				price : 40000
 			}, {
 				name : 'Focus',
-				brand : 'Focus',
+				brand : 'Ford',
 				price : 60000
 			}, {
 				name : 'Corolla',
