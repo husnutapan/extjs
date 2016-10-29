@@ -1,6 +1,5 @@
 Ext.define('myApp.controller.Cars', {
 	extend : 'Ext.app.Controller',
-
 	stores : [ 'Cars' ],
 	models : [ 'Car' ],
 	views : [ 'car.List', 'car.Edit' ],
