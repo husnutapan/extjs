@@ -3,29 +3,9 @@ Ext.define('myApp.view.car.List', {
 	alias : 'widget.carList',
 	title : 'All Car List',
 
+	store : 'Cars',
+
 	initComponent : function() {
-		this.store = {
-			fields : [ 'name', 'brand', 'price' ],
-			data : [ {
-				name : 'Megane',
-				brand : 'Renault',
-				price : 40000
-			}, {
-				name : 'Focus',
-				brand : 'Ford',
-				price : 60000
-			}, {
-				name : 'Corolla',
-				brand : 'Toyota',
-				price : 30000
-			}, {
-				name : 'BMW 520d',
-				brand : 'BWM',
-				price : 200000
-			}, ]
-
-		},
-
 		this.columns = [ {
 			header : 'Name',
 			dataIndex : 'name',
